@@ -1,0 +1,53 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo>h1{
+    font-family: "Teko", sans-serif;
+    color: red;
+    font-size: 50px;
+}
+.materias{
+    margin: 30px;
+}
+.imagenes{
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.ima{
+    width: 30%;
+    height: 300px;
+}
+.ima>p{
+    font-size: 40px;
+    font-family: "teko";
+    text-align: center;
+}
+.ima>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    padding: 20px;
+    margin: 15px;
+    background-color: red;
+    color: white;
+}
+.card:hover{
+    background-color: black;
+    color: red;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
